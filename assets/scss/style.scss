@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+
+
+$headings-font-family:Vast Shadow;
+
+
+$primary:#FF550B;
+$secondary:#303030;
+$success:#015668;
+$danger:#FF304F;
+$info:#0F81C7;
+$warning:#0DE2EA;
+$light:#e8e8e8;
+$dark:#000000;
+$enable-gradients:true;
+$spacer:1.2rem;
+$border-width:3px;
+$btn-border-radius:.25rem;
+$padding:1rem;
+
+
+
+
+
+
+.container {
+    background-color: $success;
+    padding: $padding;
+    
+
+    h2 {
+        color: $primary;
+        font-family: $headings-font-family;
+    }
+
+    
+    .carousel {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 20rem;
+            height: 30rem;
+    }
+}   
+    li {
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+
+    
+    a {
+        color: $primary;
+        font-family: $headings-font-family;
+    }
+    
+    
+        
+    
+        .thumbnail {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            background-color: $primary;
+
+
+            img {
+                width: 20rem;
+                height: 30rem;
+                border-style: dashed;
+                border-color: $success;
+                border-width: 5px;
+
+                
+            }
+            
+        }
+
+    .card-body {
+            color: $success;
+            background-color: $primary;
+            
+}
+    h4 {
+        color: $success;
+        font-family: $headings-font-family; 
+        }
+    
+
+    
+
+    .btn {
+        background-color: $success;
+        color: $primary;
+        justify-items: center;
+    }
+    
+    
+}
+    .footer {
+        color: $primary;
+        font-family: $headings-font-family;
+        text-align: center;
+    }
+

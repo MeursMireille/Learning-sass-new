@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Vast+Shadow");
+.container {
+  background-color: #015668;
+  padding: 1rem;
+}
+.container h2 {
+  color: #FF550B;
+  font-family: Vast Shadow;
+}
+.container .carousel {
+  display: flex;
+  justify-content: center;
+}
+.container .carousel img {
+  width: 20rem;
+  height: 30rem;
+}
+.container li {
+  text-align: center;
+}
+.container h3 {
+  text-align: center;
+}
+.container a {
+  color: #FF550B;
+  font-family: Vast Shadow;
+}
+.container .thumbnail {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #FF550B;
+}
+.container .thumbnail img {
+  width: 20rem;
+  height: 30rem;
+  border-style: dashed;
+  border-color: #015668;
+  border-width: 5px;
+}
+.container .card-body {
+  color: #015668;
+  background-color: #FF550B;
+}
+.container h4 {
+  color: #015668;
+  font-family: Vast Shadow;
+}
+.container .btn {
+  background-color: #015668;
+  color: #FF550B;
+  justify-items: center;
+}
+
+.footer {
+  color: #FF550B;
+  font-family: Vast Shadow;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
